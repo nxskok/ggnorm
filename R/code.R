@@ -8,6 +8,7 @@
 #' ggnormplot(rchisq(100,3))
 #' @export
 ggnormplot=function(z) {
+  # idea from 1st answer to http://stackoverflow.com/questions/4357031/qqnorm-and-qqline-in-ggplot2
   z=z[!is.na(z)]
   y=quantile(z, c(0.25, 0.75))
   x=qnorm(c(0.25, 0.75))
