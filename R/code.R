@@ -17,7 +17,7 @@ ggnormplot=function(z) {
 
   d <- data.frame(z)
 
-  ggplot(d, aes(sample = z)) + stat_qq() +
+  ggplot2::ggplot(d, aes(sample=z)) + stat_qq() +
      geom_abline(slope = b, intercept = a)
 
 }

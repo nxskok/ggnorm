@@ -6,5 +6,5 @@ NULL
 #' @importFrom stats quantile qnorm
 NULL
 
-#' @importFrom ggplot2 aes geom_abline stat_qq
+#' @import ggplot2
 NULL
