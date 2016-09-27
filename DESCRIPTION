@@ -4,7 +4,10 @@ Title: Normal Quantile Plot with Line
 Version: 0.1.0
 Author: Ken Butler
 Maintainer: Ken Butler <butler@utsc.utoronto.ca>
-Description: Draw a normal quantile plot in the manner of qqnorm() plus qqline() using ggplot2 graphics
+Description: Draw a normal quantile plot in the manner of qqnorm() plus qqline()
+    using ggplot2 graphics.
 License: GPL-3
 LazyData: TRUE
-Imports: ggplot2
+Depends:
+    ggplot2
+RoxygenNote: 5.0.1
